@@ -1,0 +1,45 @@
+  <style type="text/css">
+	img {float: 50px;}
+	A { text-decoration: none} 
+	body {
+	font-family: Verdana, Geneva, sans-serif;
+	background-repeat: repeat;
+	background-image: url(background.jpg);
+	font-size: 24px;
+     	}
+	#rightcolumn {
+	width: 405px;
+	padding: 10px;
+	height: 137px;
+	position: absolute;
+	left: 752px;
+	top: 497px;
+	}
+	#leftcolumn {
+	width: 550px;
+	padding: 10px;
+	height: 2207px;
+	position: absolute;
+	top: 488px;
+	left: 124px;
+	}
+	#menu {
+	width: 881px;
+	padding: 5px;
+	text-align: center;
+	font-style: italic;
+	background-image: url(menu.png);
+	position: absolute;
+	left: 240px;
+	top: 142px;
+	height: 76px;
+	background-image: url(menu.png);
+	
+	}
+
+
+
+	
+	}
+
+  </style>
