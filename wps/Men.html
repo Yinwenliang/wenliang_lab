@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style type="text/css">
+body,td,th {
+	font-family: "华文彩云";
+}
+.Title {
+	font-size: 36px;
+	font-weight: bold;
+	text-align: left;
+}
+.Navigation {
+	font-family: "华文琥珀";
+}
+.V {
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: center;
+}
+</style>
+
+<script type="text/javascript">
+<!--
+   function colorChoise(color){
+   switch (color){
+   case "red":
+       document.getElementById("color").bgColor="#cc2900";
+	   break;
+   case "black":
+       document.getElementById("color").bgColor="#000000";
+	   break;
+   case "white":
+       document.getElementById("color").bgColor="#FFFFFF";
+	   break;
+   }
+   }
+-->
+</script>
+
+</head>
+
+<body>
+<table width="652" border="1" align="center">
+  <tr>
+    <td width="155" height="131"><img src="images/T.png" alt="T-shirt icon" width="155" height="155" border="0" align="middle" /></td>
+    <td colspan="4"> <div align="center" class="Title"> Welcome to T-Shirt Shop    </div></td>
+  </tr>
+  <tr>
+    <td height="41" colspan="2"> 
+         <div align="center" class="Navigation"> 
+               <a href="index.html"> Home</a>
+         </div></td>
+    <td width="218">
+         <div align="center" class="Navigation">
+               <a href="Women.html">Women's T-shirt</a>
+         </div></td>
+    <td width="211">
+         <div align="center" class="Navigation">
+         <a href="Men.html">Men's T-shirt</a>
+         </div></td>
+  </tr>
+  <tr>
+    <td height="255" colspan="2" id="color"><img src="images/yi.png" width="235" height="255" alt="cloth" /></td>
+    <td height="255" colspan="3"><table width="387" height="212" border="0" align="center">
+      <tr>
+        <td width="108" class="V">Price</td>
+        <td width="263" class="V">$1000.00</td>
+      </tr>
+      <tr>
+        <td class="V">Size</td>
+        <td>
+         <select name="size">
+         <option> S </option>
+         <option> M </option>
+         <option> L </option>
+         <option> XL </option>
+         <option> XXL </option>
+         <option> XXXL </option>
+         </select>       
+        </td>
+      </tr>
+      <tr>
+        <td class="V">Colour</td>
+        <td>
+        <input type = "radio" name = "os" value="red" checked="checked" onclick=" colorChoise(value)"> red
+        <input type = "radio" name = "os" value="black" checked="checked" onclick=" colorChoise(value)"> black
+        <input type = "radio" name = "os" value="white" checked="checked" onclick=" colorChoise(value)"> white
+        </td>
+      </tr>
+      <tr>
+        <td class="V">Text</td>
+        <td><textarea name="number"></textarea></td>
+      </tr>
+      <tr>
+        <td class="V">Quentity</td>
+        <td><input name="number" type="text" value="" />
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" class="V">
+        <input type="button" value="Buy">
+        </td>
+        </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td colspan="5"><table width="608" border="0" align="center">
+      <tr>
+        <td width="166" height="48" bgcolor="#CCCCCC" class="V">User Information</td>
+        <td bgcolor="#CCCCCC" class="V"><span class="Title">☞</span></td>
+        <td bgcolor="#FFFFFF" class="V">&nbsp;</td>
+        </tr>
+      <tr>
+        <td height="44" colspan="2" class="V">First Name</td>
+        <td width="403" align= "center"><input name="number" type="text" value="" /></td>
+      </tr>
+      <tr>
+        <td height="42" colspan="2" class="V">Last Name</td>
+        <td align= "center"><input name="number" type="text" value="" /></td>
+      </tr>
+      <tr>
+        <td height="49" colspan="2" class="V">Email</td>
+        <td align= "center"><input name="number" type="text" value="" /></td>
+      </tr>
+      <tr>
+        <td height="42" colspan="2" class="V">Phone</td>
+        <td align= "center"><input name="number" type="text" value="" /></td>
+      </tr>
+      <tr>
+        <td height="42" colspan="2" class="V">Address</td>
+        <td align= "center"><textarea name="number" type="text" value="" /></td>
+      </tr>
+      <tr>
+        <td height="42" colspan="2" class="V">&nbsp;</td>
+        <td align="center"><input type="button" value="Submit"></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+</body>
+</html>

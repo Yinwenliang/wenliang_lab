@@ -1,166 +1,11 @@
-<!-- G51WPS coursework-->
+<!DOCTYPE html>
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
  
-  <title>Custom T-Shirt</title>
-
-  <style type="text/css">
-	textarea {
-	font-family: Verdana, Geneva, sans-serif;
-	font-size: large;
-	font-style: italic;
-	font-weight: normal;
-	float: left;
-	height: 40px;
-	width: 200px;
-	padding: 10px;
-	top: 300px;
-	left: 500px;
-	right: 400px;
-	bottom: 1000px;
-}
-	img {float: 10px;}
-	body {
-	font-family: Verdana, Arial, sans-serif;
-	background-image: url(2719878_114349018_2.jpg);
-	background-attachment: scroll;
-	background-repeat: none;
-
-     	}
-	#container { margin: auto;  
-            width:50%;
-            min-width:700px;
-			background-color: #35C1EA;
-			
-	    
-	    
-}
-
-	#rightcolumn {
-	width: 1100px;
-	padding: 10px;
-	height: 1000px;
-	<!--background-image: url(background1.jpg);-->
-
-	background-position: center;
-	background-image: url(background1.jpg);
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-position: center center;
-	}
-	#logo {
-	padding: 10px;
-	text-align: left;
-	display: inline;
-	font-style: italic;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-position: center center;
-	}
-	.menuBar{
-	text-decoration: none;
-	margin: 15px;
-	display: inline;
-	}
-	.floatright {margin: 10px;
-	             float: right;background-color: #ccaa66;
-	}
-	#footer {
-	font-size: xx-small;
-	text-align: center;
-	background-color: #35C1EA;
-	margin: auto;
-	padding: 10px;
-	}
-
-    #logo h1 {
-	color: #FFFFFF;
-	}
-	
-	#style {
-	position: absolute;
-	left: 124px;
-	top: 708px;
-}
-	#style2{
-	position: absolute;
-	left: 185px;
-	top: 633px;
-	}
-
-  </style>
-  	<script type = "text/javascript">
-	function changeFont(ftSize){
-			document.getElementById("tx").style.fontSize=ftSize;
-	}
-	function changeColor(ftColor){
-			document.getElementById("tx").style.color=ftColor;
-	}
-	function changeStyle(ftStyle){
-			document.getElementById("tx").style.fontFamily=ftStyle;
-	}
-	function designChoice(image){
-	  
-	  	  switch (image) {
-          case "tshirt1": 
-            document.getElementById("1").src = "t1.jpg";
-			document.getElementById("2").value = "This is Design 1"; 
-            break;
-          case "tshirt2": 
-             document.getElementById("1").src = "t2.png";
-			 document.getElementById("2").value = "This is Design 2"; 
-            break; 
-           case "tshirt3":
-            document.getElementById("1").src = "t3.jpg";
-			document.getElementById("2").value = "This is Design 3"; 
-            break;    
-			           case "tshirt4":
-            document.getElementById("1").src = "t4.png";
-			document.getElementById("2").value = "This is Design 4"; 
-            break;    
-			           case "tshirt5":
-            document.getElementById("1").src = "t5.jpg";
-			document.getElementById("2").value = "This is Design 5"; 
-            break;    
-	  }
-	  
-	  }	 
-	   function colorChoice(color){
-	  
-	  	 	 switch (color) {
-          	case "red": 
-            document.getElementById("4").bgColor="#cc2900";
-			break;
-          	case "black": 
-             document.getElementById("4").bgColor="#000000";
-
-            break; 
-           	case "white":
-            document.getElementById("4").bgColor="#FFFFFF";
-			break;    
-			case "green":
-            document.getElementById("4").bgColor="#00FF00";
-			break; 
-			
-			case "blue":
-            document.getElementById("4").bgColor="#6A6AFF";
-			break; 	
-			case "yellow":
-            document.getElementById("4").bgColor="#FFFF37";
-			break; 	
-			case "pink":
-            document.getElementById("4").bgColor="#FF80C0";
-			break; 	
-			case "purple":
-            document.getElementById("4").bgColor="#FF00FF";
-			break; 	
-	
-	  }
-	  
-	  }
-
-</script>
+<title>Custom T-Shirt</title>
+<link rel="stylesheet" type = "text/css" href = "layout.css">
+<script src="select.js" type="text/javascript"></script>
 
 </head>
 <body>
@@ -174,7 +19,7 @@
   <div id="rightcolumn">
 
 
-    <table width="856" height="664" border="1">
+    <table class="table1">
       <tr>
         <td colspan="4"><P>&nbsp;</P></td>
       </tr>

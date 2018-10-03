@@ -1,0 +1,91 @@
+
+    textarea {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: large;
+	font-style: italic;
+	font-weight: normal;
+	float: left;
+	height: 40px;
+	width: 200px;
+	padding: 10px;
+	top: 300px;
+	left: 500px;
+	right: 400px;
+	bottom: 1000px;
+}
+	img {float: 50px;}
+	body {
+	font-family: Verdana, Arial, sans-serif;
+	background-image: url(2719878_114349018_2.jpg);
+	background-attachment: scroll;
+	background-repeat: repeat;
+
+     	}
+	#container { margin: auto;  
+            width:50%;
+            min-width:700px;
+			background-color: #35C1EA;
+			
+	    
+	    
+}
+
+	#rightcolumn {
+	width: 1100px;
+	padding: 10px;
+	height: 1000px;
+	background-position: center;
+	background-image: url(background1.jpg);
+	background-attachment: relative;
+
+	}
+	#logo {
+	padding: 10px;
+	text-align: left;
+	display: inline;
+	font-style: italic;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+	}
+	.menuBar{
+	text-decoration: none;
+	margin: 15px;
+	display: inline;
+	}
+	.floatright {margin: 10px;
+	             float: right;background-color: #ccaa66;
+	}
+	#footer {
+	font-size: xx-small;
+	text-align: center;
+	background-color: #35C1EA;
+	margin: auto;
+	padding: 10px;
+	}
+
+    #logo h1 {
+	color: #FFFFFF;
+	}
+	
+	#style {
+	position: relative;
+	left: 144px;
+	border: 1px solid;
+	width: 200px;
+	height: 220px;
+}
+	#style2{
+	position: absolute;
+	left: 185px;
+	top: 633px;
+	}
+	
+	.table1{
+	width: 856px;
+	height: 664px;
+	border: 2px solid;
+    }
+    .table1 td{
+    border: 2px solid;}
+    

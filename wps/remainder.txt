@@ -1,0 +1,4 @@
+http://www.cs.nott.ac.uk/~bnk/WPS/dynLink.html
+http://www.cs.nott.ac.uk/~bnk/WPS/dynColors.html
+http://www.cs.nott.ac.uk/~bnk/WPS/dynValue.html?
+http://www.cs.nott.ac.uk/~bnk/WPS/mover.html
