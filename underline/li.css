@@ -1,0 +1,13 @@
+li::before {
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 0;
+height: 100%
+border-bottom: 2px solid #000;
+}
+
+li:hover::before{
+ width: 100%;
+ }
